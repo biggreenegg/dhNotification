@@ -1,0 +1,11 @@
+---
+buildName: "dhnotification"
+links:
+  Git: "https://github.com/biggreenegg/dhNotification.git"
+  Job: "http://192.168.64.5:31632/job/dhnotification"
+  Production: "http://10.0.0.39:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://10.0.0.39:80/kubernetes/pods?namespace=default-staging"
+environments:
+  Staging: "default-staging"
+  Production: "default-production"
+useLocalFlow: true
