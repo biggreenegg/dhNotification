@@ -1,10 +1,10 @@
 ---
-buildName: "dhnotification2"
+buildName: "dhnotification"
 links:
   Git: "https://github.com/biggreenegg/dhNotification.git"
-  Job: "http://192.168.64.6:30646/job/dhnotification2"
-  Production: "http://10.0.0.45:80/kubernetes/pods?namespace=default-production"
-  Staging: "http://10.0.0.45:80/kubernetes/pods?namespace=default-staging"
+  Job: "http://192.168.64.6:32620/job/dhnotification"
+  Production: "http://10.0.0.140:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://10.0.0.140:80/kubernetes/pods?namespace=default-staging"
 environments:
   Staging: "default-staging"
   Production: "default-production"
